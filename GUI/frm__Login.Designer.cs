@@ -82,6 +82,7 @@ namespace GUI
             this.btn__close.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btn__close.TabIndex = 1;
             this.btn__close.TabStop = false;
+            this.btn__close.Click += new System.EventHandler(this.btn__close_Click);
             // 
             // btn__minimize
             // 

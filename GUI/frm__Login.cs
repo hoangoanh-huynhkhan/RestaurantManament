@@ -16,5 +16,14 @@ namespace GUI
         {
             InitializeComponent();
         }
+
+        private void btn__close_Click(object sender, EventArgs e)
+        {
+            if(MessageBox.Show("Do you want to close programing?", "Wanning", MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
     }
 }
